@@ -9,7 +9,6 @@ const List = (props) => {
                     return (
                         <li key={index} className="ul">
                             {item}
-                            {/* <button className="Button">Finished</button> */}
                             <button 
                                 onClick={() => props.delete(index)} 
                                 className="Button">Delete</button>
@@ -21,4 +20,4 @@ const List = (props) => {
     );
 }
 
-export  {List};
+export default List;
